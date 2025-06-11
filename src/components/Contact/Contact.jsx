@@ -17,8 +17,8 @@ const Contact = () => {
 
         <div className="text-center">
           <p>¿Querés saber más o hacer un pedido? ¡Nos encanta hablar de gatos y diseño!</p>
-          <p><strong>WhatsApp:</strong> +54 9 351 361-5922</p>
-          <p><strong>Instagram:</strong> @cubecat_</p>
+          <p className="link-decoration-hover" style={{cursor: 'pointer'}} onClick={() => window.open('https://wa.me/5493513615922?text=Hola, quisiera saber más sobre los productos de Cube Cat.', '_blank')}><strong>WhatsApp:</strong> +54 9 351 361-5922</p>
+          <p className="link-decoration-hover" style={{cursor: 'pointer'}} onClick={() => window.open('https://www.instagram.com/cubecat_', '_blank')}><strong>Instagram:</strong> @cubecat_</p>
           <p><strong>Email:</strong> contacto@cubecat.com</p>
         </div>
       </div>

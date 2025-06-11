@@ -78,3 +78,15 @@ section {
     justify-content: space-around;
   }
 }
+
+.link-decoration-hover {
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link-decoration-hover:hover {
+  text-decoration: underline;
+  color: #1c485e;
+  transition: all 0.3s ease;
+}
