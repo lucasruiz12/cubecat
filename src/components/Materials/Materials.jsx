@@ -1,6 +1,6 @@
 import React from 'react';
 import colors from '../../styles/colors';
-import genericImage from '../../assets/genericImage.png';
+import genericImage4 from '../../assets/genericImage4.png';
 
 const Materials = () => {
     return (

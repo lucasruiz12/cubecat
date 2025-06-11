@@ -1,6 +1,7 @@
 import React from 'react';
 import colors from '../../styles/colors';
-import genericImage from '../../assets/genericImage.png';
+import genericImage2 from '../../assets/genericImage2.png';
+import genericImage3 from '../../assets/genericImage3.png';
 
 const Products = () => {
   return (
@@ -11,7 +12,7 @@ const Products = () => {
         <div className="row">
           <div className="col-md-6 mb-4">
             <div className="card custom-img-border">
-              <img src={genericImage} alt="Producto 1" className="card-img-top custom-img-border" />
+              <img src={genericImage2} alt="Producto 1" className="card-img-top custom-img-border" />
               <div className="card-body text-center">
                 <h5 className="card-title">Modelo Modular 40x40</h5>
                 <p className="card-text">Envíos a toda la Argentina</p>
@@ -21,7 +22,7 @@ const Products = () => {
 
           <div className="col-md-6 mb-4">
             <div className="card custom-img-border">
-              <img src={genericImage} alt="Producto 2" className="card-img-top custom-img-border" />
+              <img src={genericImage3} alt="Producto 2" className="card-img-top custom-img-border" />
               <div className="card-body text-center">
                 <h5 className="card-title">Modelo Personalizado</h5>
                 <p className="card-text">Consultanos por otros modelos</p>
