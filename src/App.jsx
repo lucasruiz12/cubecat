@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Products from './components/Products/Products';
 import Materials from './components/Materials/Materials';
+import Info from './components/Info/Info';
 import Contact from './components/Contact/Contact';
 import colors from './styles/colors';
 import './App.css';
@@ -22,7 +23,8 @@ function App() {
       <Hero />
       <About />
       <Products />
-      <Materials />
+      <Materials /> 
+      <Info />
       <Contact />
     </div>
   );
