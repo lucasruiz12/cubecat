@@ -1,27 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Products from './components/Products/Products';
+import Materials from './components/Materials/Materials';
+import Contact from './components/Contact/Contact';
+import colors from './styles/colors';
+import './App.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Cube Cat</h1>
-      <div className="card">
-        <p>
-          Sitio en construcción
-        </p>
-      </div>
-    </>
-  )
+    <div style={{ backgroundColor: colors.crema }}>
+      <Header />
+      <Hero />
+      <About />
+      <Products />
+      <Materials />
+      <Contact />
+    </div>
+  );
 }
 
-export default App
+export default App;
