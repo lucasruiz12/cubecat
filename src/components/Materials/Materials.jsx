@@ -18,7 +18,7 @@ const Materials = () => {
 
                 <div className="row align-items-center">
                     <div className="col-md-6">
-                        <img src={genericImage} alt="Materiales" className="img-fluid custom-img-border" />
+                        <img src={genericImage4} alt="Materiales" className="img-fluid custom-img-border" />
                     </div>
                     <div className="col-md-6">
                         <p style={{ color: colors.azul }}>
